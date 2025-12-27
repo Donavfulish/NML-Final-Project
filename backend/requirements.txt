@@ -1,0 +1,69 @@
+# ===== Core ML / NLP =====
+torch==2.1.2
+transformers==4.36.2
+accelerate==1.0.1
+datasets==2.16.1
+tokenizers==0.15.0
+safetensors==0.4.5
+sentencepiece==0.1.99
+sacremoses==0.0.53
+
+numpy==1.24.4
+scipy==1.10.1
+scikit-learn==1.3.2
+pandas==2.0.3
+tqdm==4.66.1
+regex==2023.10.3
+requests==2.31.0
+joblib==1.3.2
+
+# ===== HuggingFace / IO =====
+huggingface-hub==0.21.4
+filelock==3.13.1
+fsspec==2023.10.0
+pyarrow==14.0.2
+multiprocess==0.70.15
+xxhash==3.4.1
+
+# ===== Vietnamese NLP =====
+py_vncorenlp==0.1.4
+nltk==3.8.1
+emoji==2.10.0
+
+# ===== Visualization / Utils =====
+matplotlib==3.7.5
+seaborn==0.13.0
+pillow==10.2.0
+opencv-python==4.9.0.80
+
+# ===== FastAPI Backend =====
+fastapi==0.110.0
+uvicorn==0.27.1
+pydantic==2.7.4
+python-multipart==0.0.9
+
+# ===== Networking =====
+aiohttp==3.9.3
+anyio==4.2.0
+h11==0.14.0
+httpx==0.26.0
+urllib3==2.1.0
+yarl==1.9.4
+multidict==6.0.4
+frozenlist==1.4.1
+aiosignal==1.3.1
+
+# ===== Jupyter (optional, giữ nếu cần) =====
+ipython==8.12.3
+ipykernel==6.29.0
+jupyter_client==8.6.0
+jupyter_core==5.7.1
+ipywidgets==8.1.1
+widgetsnbextension==4.0.9
+
+# ===== Misc =====
+protobuf==4.25.2
+psutil==5.9.8
+PyYAML==6.0.1
+six==1.16.0
+typing_extensions==4.9.0
