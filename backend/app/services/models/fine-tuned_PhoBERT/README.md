@@ -11,3 +11,5 @@ Tải tất cả nội dung trong folder fined-tuned_PhoBERT trên Google Drive 
 ## **BƯỚC 3**
 
 Copy các nội dung vừa tải vào trong folder này.
+
+Nếu có sẵn thì không cần thực hiện các bước trên.
