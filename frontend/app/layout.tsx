@@ -7,8 +7,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "AI Translation Chatbot",
-  description: "Modern AI-powered translation assistant for Vietnamese and English",
+  title: "AI Sentiment Analyzer",
+  description: "Professional AI-powered sentiment analysis tool for Vietnamese text and CSV files",
   generator: "v0.app",
   icons: {
     icon: [

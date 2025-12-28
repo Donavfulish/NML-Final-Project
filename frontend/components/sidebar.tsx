@@ -46,7 +46,7 @@ export function Sidebar({ isOpen, onToggle, onNewChat, messages }: SidebarProps)
       >
         {/* Sidebar Header */}
         <div className="flex items-center justify-between border-b border-sidebar-border p-4">
-          <h2 className="text-lg font-semibold">Translation History</h2>
+          <h2 className="text-lg font-semibold">Analysis History</h2>
           <Button variant="ghost" size="icon" onClick={onToggle}>
             <PanelLeft className="h-5 w-5" />
           </Button>
@@ -59,7 +59,7 @@ export function Sidebar({ isOpen, onToggle, onNewChat, messages }: SidebarProps)
             className="w-full justify-start gap-2 bg-sidebar-primary text-sidebar-primary-foreground hover:bg-sidebar-primary/90"
           >
             <Plus className="h-4 w-4" />
-            New Chat
+            New Analysis
           </Button>
         </div>
 
@@ -68,7 +68,7 @@ export function Sidebar({ isOpen, onToggle, onNewChat, messages }: SidebarProps)
           {messages.length === 0 ? (
             <div className="flex flex-col items-center justify-center py-8 text-center">
               <MessageSquare className="mb-2 h-8 w-8 text-muted-foreground" />
-              <p className="text-sm text-muted-foreground">No translation history yet</p>
+              <p className="text-sm text-muted-foreground">No analysis history yet</p>
             </div>
           ) : (
             <>
